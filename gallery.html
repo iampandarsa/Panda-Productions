@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Panda Productions</title>
+    <meta name="description" content="Explore Panda Productions' gallery featuring professional event photography and videography. View our recent projects and see the quality we deliver.">
+    <meta name="keywords" content="Panda Productions, Gallery, Photography, Videography, Event Coverage, Visual Content, Brakpan Studio">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="Website style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <nav class = "navbar">
+            <div class="logo"><img src="Images/gallery/logo.png" alt="Panda Productions Logo" width="150"> </div>
+            <ul class="nav-links">
+                 <li><a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvt1E0uREEQwPHfnMJC4jNCWNqRuIG4jI0bcCAuICwtJhJi4WMh4RJIyXvS2pt5Ncbs9O516v3/1V1VPTDjNZgx3ySCOZziDft4zSSXFQT8EisN9B47GUlGEPBzrOGpESziDnt9kj5BmfkzdhvBBebRe5Jxgi54eYKUZJRgHLytbVxTr6RLkIGnJbVgEnhKUgrKbomfl/GY6XUs4aGJ/dZdpeAaWwWwr8Nq93uxcYXt+C4ht1j/I8ENNmtBy24zaeUHOMZGlXJADnHW7Nf/fW53XUMd+IKoT9eKQVudVtCZGer9X5/gX/Cjdqm7naYG8WIuJCe4DovJjxfga3W1afT9STV0Gd8QR8VcjJyDDCwdM+l7kwa3gR/DDlQZ8ZOLqAAAAABJRU5ErkJggg=="/>Home</a></li>
+                 <li><a href="about.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALNJREFUSEtjZKAxYKSx+Qx0tWA/AwODAx4fPWVgYFjAwAB2VDwDA4M0HrUHGBgYHEHyyD74T+XgAptNrgXaDAwM13A4COZQiizAF3ejFoBDfjSICOaI0SAaDSJEXiG3sKsDFnZhDAwMOngCE6OwI1QfEIwYJAV7GBgYXAlleZh6kEvsGRgYehgYGIyhgmcYGBhKgZXKQQYGBrz1CClVpgjUwL/Qmu8dMV4ixQJizMNQQ3MLANpsKxnwIPXBAAAAAElFTkSuQmCC"/>About Us</a></li>
+                 <li><a href="services.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgtJREFUSEu11UuojVEUB/Df9QgpBh4ZYIhkohRFZkpJSiYMDClM5K08c70LE8TAyJSSiVIkA3mUmQFDKRQhykB867S+azudc+53c+6u0/nW2nuv/1r/tfd/DxjlMTDK8Y0EYDFOVb8J2ImXTZJrAjAfJ7G+CPgbN7EP73oB9QKYi+PYTKvST7iEsdiLifiJCziB752AOgHMxGFsrTaOKzZtxxVE9rOq/yNV9luqJMbgY9rX8KsEKgGmYH/yG9nFuIUliGpiPMU2vEh7HgaxIe3XSdvtGqQEeIKlOfEIu/Esm7oHBzEp529U9BzA+7SX4RxWpH0Pq+O7BIjS6xEAu/C88M2uAM5gU/q+JvfRg0XZn5XF+lbsbgD1uig1Gvqm2Li86sHVDBrutwjwGF+qpk/N70YAsTaadj2b+CE3T8bD7E+NfQwX8XmkAHWAH8lz2DswraiqZKOmunEFbXGGzMdVdYfwoMw4j/EQ4HA96BZ8VXVi7ufkPxn3C6BMLCoI/qMnMfpCUTeJiRMW1HWk6G51sdZ046RLQ2v3whTEdem4g9Z3eyZrcRYLhgGq980pBDE06VXem0j2bxltwUItQ+iOYkYXoOkpHSGA8T7E/Yj1PcWuPVYtfqFJ49smQyZiPuT6fErIt07JNHlwgobT2FhQ2pcHpz2hkO3L6Yx3oG9PZsOD1XlZE4r+C+AP63JfGTmlrz0AAAAASUVORK5CYII="/>Services</a></li>
+                 <li><a href="gallery.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWZJREFUSEvV1btKH1EQx/HPv0qlqSKCIEgC8QEsgiKIhSDkgs+QSjtFg2LvBSSxDuQRhIRAQoqkCBIQOxstRBQsFEEwWNmYPbKBZbOXwy4WmWrZM/P7zs7Mme24Z+vcs74YQC8+YyiXzC5e4qwqyTrAI/zCkxKRQwzjogxSBQjiPzFYU8YDjOCyyC8LeIW1CMG6tu1jHl+CYxZwir666MjzIzzOA24rgj/iPb6mPpOYxouKmLvks19QBljGSonQKhZLzqIAIfOpVOAtXqfPHzCXJvgDYwWQKMAz7CCIz+ZE3qWQcBc+NQU8wE0ifpVAunMiv/EQPUk/zpsCupKRu64BBHBIIG9RJRrFdk2JxvG9KaCuyUH3W7JOJpoCQtwCNkpGcR1v2ozp39gtbKblCu+eYyaZsHDhyiyqB5GbodDtH8AJ+tsoZmKPMZBfFWGbhpo+bQnZw1LRNm2pWxxe90drDf3/AX8AAUdAGel4WbgAAAAASUVORK5CYII="/>Gallery</a></li> <!-- New Link -->
+                 <li><a href="contact.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEu11b0uREEYgOFnuQUkEpHo0LgGhQuQqNyARiEUCipsg0Si0ChUCtdA4RI0egoi4QokfnbkrMjZ2d0Z55xTf/O+33w/Z1oa/loN88UEK9jDXAX5LRbD+ZjgHvMV4N2jP+yY4KsG+C87V7CPsyKBdewMSCb7Bps4KQGD4KCPpEcwrDTjeCvBJvFclyDAXkqwMbymCrpx/W6yjcMSbBWXdQkCp41TjGIJR52mT6QKhvUgd3qzmxwEj3goTDOYrmtMr3CBa3wW0JGiTGtYjoiS9uC9M5phoc6H1GcLx6WYpBLtFo1NqX9Ywo0/gUmCKTyl0LGAu0GC2B7kvBehJx+5gsTko2FJTW5E0PiDE57M8N+frZD+TbEj0RetArf3aM6U/Ev8DavcMBm78qY2AAAAAElFTkSuQmCC"/>Contact Us</a></li>
+             </ul>
+                                 
+         </nav>
+       
+        <h1>Gallery</h1>
+    </header>
+
+   
+
+    <section>
+        <h2>Our recent projects</h2>
+        <div class="fancy-text-box">
+        <p>At Panda Productions, we take pride in every project we create. From stunning event coverage to high-quality brand videos, our recent work showcases our dedication to storytelling, creativity, and professional execution.</p>
+        </div>
+        <table>
+            <h3>Recent photoshoot</h3>
+            <tr>
+                <td><img src="images/gallery/fight club 1.jpeg" alt="Photography image 1" width="200" height="150"></td>
+                <td><img src="images/gallery/fight club 2.jpeg" alt="Photography image 2" width="200" height="150"></td>
+                <td><img src="images/gallery/fight club 3.jpeg" alt="Photography image 3" width="200" height="150"></td>
+                <td><img src="images/gallery/fight club 4.jpeg" alt="Photography image 3" width="200" height="150"></td>
+            </tr>
+            <!-- Add more rows and images as needed -->
+        </table>
+
+        <table>
+           <h3>Recent vidography projects</h3>
+           <tr>
+              <td><img src="images/gallery/videography video 1.jpeg" alt="videography image 1" width="200" height="150"></td>
+              <td><img src="images/gallery/videography video 2.jpeg" alt="videography image 2" width="200" height="150"></td>
+              <td><img src="images/gallery/videography video 3.jpeg" alt="videography image 3" width="200" height="150"></td>
+              <td><img src="images/gallery/videography video 4.jpeg" alt="videography image 4" width="200" height="150"></td>
+           </tr>
+    </table>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Panda Productions. All rights reserved.</p>
+        <p>Follow us on:</p>
+        <p>
+            <a href="https://www.tiktok.com/@panda_productions_za"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAa1JREFUSEu11btrFVEQx/FPUJCAhSCChVaRKKKNjWihlSGFWEeIb7S0E0R7tbILIY34iMEiBCxthGhjpaAIio8/wUZERVHPwFk4LHuX3Xu9BxZ275kz35nzm5k7YcxrYsz+DQO4j1M5sPfY0xbkqIA/2IKvgyCjAsLvNdz8n4B7OF04/I7jeNoEGSaDOiD8/sZDrOIj3lWwYQClyE1Bx/6ZUQBlBj+xARsLUuyf7QLYhovYi624jpcoAZ9wDDfStcxlp50AF7CQqmNTEVnU/nIDYFe2mcSO/P6hLYOTWGm43ApQahAZVIDGSq2LHFF8xvbCOprpDW6lrn3UkkEnwCUsFZZRepfT86UmYtUHvTN4nIQ8kZ1FLYfAf2uh1UXudUWvsT87vItzDXk/SM00X4g53WfYvcDBfOAVDjQcjsx259+f4WgfQAytq8WBI3hefM/gSfF9B1HSA1e9iiLdt0VnfsNtRCXtxPmap0OIrDsDwrBeSYMOR9NVfzy9AGEcIi5i84CT6yny2XSdP9qij722aTqFKzicxvC+NIt+YS2DQ9xOa5hx3clxZTR2wD+bkU0Zzdt3lwAAAABJRU5ErkJggg=="/>TikTok</a> |
+            <a href="https://www.instagram.com/panda_productions_za"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjNJREFUSEvF1UnITWEYB/DfhyLCRlamQiEJkSQskFJfMmS2sTEsFBmKLJTIELKyYCF9hoxRSuykJJIyJpKyYUVW5vfRe+t0Oqd7U7fvrds95x2e///5/5/nPR3aPDraHF+3AYzEVszEeGqJ/MEz3MNxvCkrUpXBBpxAL3zAA7yqkXIyJmIofmATThX3lgGm5IAvsAhvW/QosryBYZiKJ41zZYCrWIAxeN9C8LVJvr34krJdh0cpo+tYUgcQQYN9gBRHD8zDOPzCS9zNc7ezlMMzwCCMqAP4ii5sLEQPfS9iegk0jD2ddP+EwTiDUGA++tUB/MYR7Mgbgvn9zGgb7qBnZn4oV80sRDXFCCJL855/E2UPYuMB7MoHluVD8X+plMHy5NWFZOjCbHAsn0/yxXwQqwUIZjvzejxvR398KwGE1p9TOe9LvuzJayHvqiLxqgyiYbbkAwezXANT44U/xdEA2J96YHdeOIs1zQCO5S6OM1Ful7OuV0oAwTQYFyWK9xXNPChm0DA5SjCkCpOjw+emSjmM15hdMjkA+9R5EDoHi/UFtkOymTMqynQlPhbmo0znICStNDkuq/hVNVow60wV9h23cLPAvBHvMQYkkqPrAIL94lSaY1u8KopJTUj311OcSyRX1wFMSiyDRWwMg9+VZKl7jeDXEF5NyzEqJYrJxnUdBj/MksT8TzxPjdgbo7LZMd8XcQvH+macLLKo+6L9zwfnaNX13m2fzBalb76t7Rn8BcJ+cxlsKeBhAAAAAElFTkSuQmCC"/>Instagram</a> |
+        </p>
+        <p>Contact Us:</p>
+        <p>
+            Phone: (+27) 66 218 4726<br>
+            Email: <a href="pandaproduction212@gmail.com">info@pandaproductions.com</a><br>
+            Address: 73 Augrabies street, leachville, dalpark 6
+        </p>
+    </footer>
+    <script src="my website.script.js"></script>
+
+</body>
+</html>
